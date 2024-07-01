@@ -1,0 +1,12 @@
+TIMEFRAME (daily)
+Tenkan = (highest[9](high) + highest[9](low))/2
+Kijun = (highest[26](high) + lowest[26](low))/2
+SpanA = (Tenkan+Kijun)/2
+SpanB = (highest[52](high)+lowest[52](low))/2
+
+// Conditions daily :
+C1 = SpanA > SpanB                                      // nuage future haussier
+C2 = close > SpanA[26] and close > SpanB[26]           // prix > nuage
+C3 = Kijun > SpanA[26] and Kijun > SpanB[26]
+C4 = close crosses over Kijun or close = Kijun      // Cassure Kijun
+Screener[C1 and C2 and C3 and C4]
