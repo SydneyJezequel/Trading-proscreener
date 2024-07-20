@@ -6,4 +6,4 @@ Ce proscreener détecte les actifs qui répondent aux conditions suivantes :
 * La Kijun est supérieure au nuage.
 * Le prix de l'actif est supérieur ou égal à la Kijun.
 
-Le langage utilisé est « ProBuilder », un langage propre à la plateforme de Trading Prorealtime.
+Le langage utilisé est ProRealcode, un langage propre à la plateforme de Trading Prorealtime.
